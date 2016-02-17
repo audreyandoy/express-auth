@@ -17,4 +17,9 @@ app.get('/secret', function(req, res) {
 
 app.use('/auth', require('./controllers/auth'));
 
+
+
+
+
 app.listen(3000);
+
